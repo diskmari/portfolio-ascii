@@ -10,25 +10,28 @@
 <body>
 
     <header class="header">
-        <a href="#home" class="logo"> Maria <span>Fernanda</span></a>
+        <a href="#home" class="logo"> Meu <span>Portfolio</span></a>
 
         <i class='bx bx-menu menu-icon' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#home" class="active">Início</a>
-            <a href="#skills">Habilidades</a>
-            <a href="#experiences">Experiências & Projetos</a>
+            <a href="#home" class="active">Sobre mim</a>
+            <a href="#education">Educação</a>
+            <a href="#projects">Projetos & Experiências</a>
             <a href="#contact">Contato</a>
 
         </nav>
 
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
-            <h1>Olá, sou a <span>Maria</span></h1>
+            <h1>Olá, sou a <span>Maria Fernanda</span></h1>
             <h3 class="text-animation">Eu sou <span></span></h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic modi explicabo minus ea et expedita dolorem? Soluta, cum ipsa. Ea cumque soluta error ducimus voluptatum animi minus mollitia omnis accusamus?</p>
+            <p>Sou estudante de programação com foco em Front-End, apaixonada por transformar ideias criativas em soluções inovadoras e funcionais.</p>
+            <br>
+            <p>✨ Possuo habilidades em trabalho em equipe, proatividade, comunicação, organização e resolução de problemas, sempre buscando aprendizado contínuo e crescimento profissional. </p>
+
 
             <div class="social-icons">
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
@@ -44,30 +47,32 @@
             </div>
         </div>
             <div class="home-img">
-                <img src="eu.jpeg" alt="">
+                <img src="imgs/eu.jpeg" alt="">
 
             </div>
     </section>
+    
 
     <section class="education" id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading">Educação</h2>
     
         <div class="timeline-items">
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2021</div>
+                <div class="timeline-date">2022</div>
                 <div class="timeline-content">
-                    <h3>High School</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <h3>Escola</h3>
+                    <p>Finalizei meu ensino médio</p>
                 </div>
             </div>
     
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2022</div>
+                <div class="timeline-date">2023</div>
                 <div class="timeline-content">
-                    <h3>Universidade</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <h3>Universidade Unicesumar</h3>
+                    <p>Iniciei meus estudos em programação cursando Análise e Desenvolvimento de Sistemas</p>
+                    
                 </div>
             </div>
     
@@ -75,61 +80,169 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2024</div>
                 <div class="timeline-content">
-                    <h3>Universidade 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <h3>Universidade Federal de Uberlândia</h3>
+                    <p>Ingressei em Sistemas de Informação</p>
                 </div>
             </div>
         </div>
     </section>
     
-    <section class="services" id="services">
-        <h2 class="heading">Services</h2>
-            <div class="services-container"></div>
-                <div class="service-box">
-                    <div class="service-info">
-                        <h4>Front</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos adipisci, veritatis provident eum mollitia illo odit. Perspiciatis inventore officia minus! Inventore facere cum dolore vero, delectus doloribus commodi ad aperiam?</p>
+    <section class="experiences-projects" id="projects">
+        <h2 class="heading">Experiências e <span>Projetos</span></h2>
+    
+        <div class="projects-container">
+            <!-- Seta de navegação para a esquerda -->
+            <div class="arrow left-arrow" onclick="scrollProjects(-1)">
+                <i class='bx bx-chevron-left'></i>
+            </div>
+    
+            <!-- Projetos -->
+            <div class="projects-wrapper">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <img src="caminho/para/imagem1.png" alt="Imagem do Projeto 1" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Título do Projeto 1</h3>
+                        <p class="project-description">Descrição do Projeto 1. Este é um exemplo de descrição.</p>
+                        <ul class="project-skills">
+                            <li class="project-skill">Habilidade 1</li>
+                            <li class="project-skill">Habilidade 2</li>
+                            <li class="project-skill">Habilidade 3</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn" target="_blank">Site</a>
+                        <a href="#" class="btn" target="_blank">Código</a>
                     </div>
                 </div>
-
-                <div class="service-box">
-                    <div class="service-info">
-                        <h4>Lalala</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos adipisci, veritatis provident eum mollitia illo odit. Perspiciatis inventore officia minus! Inventore facere cum dolore vero, delectus doloribus commodi ad aperiam?</p>
+    
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <img src="imgs/1335130.png" alt="Imagem do Projeto 2" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Título do Projeto 2</h3>
+                        <p class="project-description">Descrição do Projeto 2. Este é um exemplo de descrição.</p>
+                        <ul class="project-skills">
+                            <li class="project-skill">Habilidade 1</li>
+                            <li class="project-skill">Habilidade 2</li>
+                            <li class="project-skill">Habilidade 3</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn" target="_blank">Site</a>
+                        <a href="#" class="btn" target="_blank">Código</a>
                     </div>
                 </div>
-                <div class="service-box">
-                    <div class="service-info">
-                        <h4>Front</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos adipisci, veritatis provident eum mollitia illo odit. Perspiciatis inventore officia minus! Inventore facere cum dolore vero, delectus doloribus commodi ad aperiam?</p>
+                 <!-- Projeto 2 -->
+                 <div class="project-card">
+                    <img src="imgs/1335130.png" alt="Imagem do Projeto 2" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Título do Projeto 2</h3>
+                        <p class="project-description">Descrição do Projeto 2. Este é um exemplo de descrição.</p>
+                        <ul class="project-skills">
+                            <li class="project-skill">Habilidade 1</li>
+                            <li class="project-skill">Habilidade 2</li>
+                            <li class="project-skill">Habilidade 3</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn" target="_blank">Site</a>
+                        <a href="#" class="btn" target="_blank">Código</a>
                     </div>
                 </div>
-                <div class="service-box">
-                    <div class="service-info">
-                        <h4>Front</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos adipisci, veritatis provident eum mollitia illo odit. Perspiciatis inventore officia minus! Inventore facere cum dolore vero, delectus doloribus commodi ad aperiam?</p>
-                    </div>
-                </div>
-        <section>
-            <section class="contact" id="contact">
+            </div>
+    
+            <!-- Seta de navegação para a direita -->
+            <div class="arrow right-arrow" onclick="scrollProjects(1)">
+                <i class='bx bx-chevron-right'></i>
+            </div>
+        </div>
+    
+ <!-- Seção de Hard Skills -->
+ <div class="skills-container">
+    <h3 class="subheading">Hard Skills</h3>
+    <ul class="skills-list">
+        <li>
+            <div class="skill-icon-container">
+                <img src="imgs/html.png" alt="Ícone HTML" class="skill-icon">
+            </div>
+            <p>HTML</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+            <span class="skill-level">Avançado</span>
+        </li>
+        <li>
+            <div class="skill-icon-container">
+                <img src="imgs/css.png" alt="Ícone CSS" class="skill-icon">
+            </div>
+            <p>CSS</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%;"></div>
+            </div>
+            <span class="skill-level">Avançado</span>
+        </li>
+        <li>
+            <div class="skill-icon-container">
+                <img src="imgs/react.png" alt="Ícone React" class="skill-icon">
+            </div>
+            <p>React</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+            <span class="skill-level">Intermediário</span>
+        </li>
+        <li>
+            <div class="skill-icon-container">
+                <img src="imgs/node.png" alt="Ícone Node" class="skill-icon">
+            </div>
+            <p>Node</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;"></div>
+            </div>
+            <span class="skill-level">Intermediário</span>
+        </li>
+        <li>
+            <div class="skill-icon-container">
+                <img src="imgs/figma.png" alt="Ícone Figma" class="skill-icon">
+            </div>
+            <p>Figma</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%;"></div>
+            </div>
+            <span class="skill-level">Iniciante</span>
+        </li>
+        <li>
+            <div class="skill-icon-container">
+                <img src="imgs/js.webp" alt="Ícone Javascript" class="skill-icon">
+            </div>
+            <p>Javascript</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+            </div>
+            <span class="skill-level">Intermediário</span>
+        </li>
+    </ul>
+</div>
+    </section>
+    <section class="contact" id="contact">
                 <h2 class="heading">Me <span>Contate</span></h2>
 
-                <form action="">
+                <form action="https://formspree.io/f/mwpvglrq" method="POST">
                     <div class="input-box">
-                        <input type="text" placeholder="Full name">
-                        <input type="email" placeholder="Email">
+                        <input type="text" name="name" placeholder="Nome completo" required>
+                        <input type="email" name="email" placeholder="Email" required>
                     </div>
                     <div class="input-box">
-                        <input type="number" placeholder="Phone Number">
-                        <input type="text" placeholder="Subject">
+                        <input type="number" name="phone" placeholder="Numero de telefone" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
                     </div>
-
                     <div class="input-group-2">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea> 
-                        <input type="submit" value="Deixe uma mensagem" class="btn">
+                        <textarea name="message" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                        <input type="submit" value="Enviar Mensagem" class="btn">
                     </div>
                 </form>
-            </section>
+    </section>
 
             <footer class="footer">
                 <div class="social">
@@ -139,22 +252,28 @@
                     <a href="#"><i class='bx bxl-instagram' ></i></a>
                 </div>
 
+
                 <ul class="list">
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="#home">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="#education">Educação</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects">Projetos</a>
                     </li>
                     <li>
-                        <a href="#">Habilidades</a>
-                    </li>
-                    <li>
-                        <a href="#">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
-                <p class="copyright">Maria Fernanda</p>
+                <div class="copyright">
+                    &copy; 2025 | Maria Fernanda Resende Menezes. Todos os direitos reservados.
+                </div>
             </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
