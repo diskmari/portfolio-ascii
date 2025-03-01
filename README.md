@@ -59,9 +59,9 @@ Aqui você encontrará maneiras de entrar em contato comigo. Inclui links para m
 5. Acesse em: `http://localhost:3000`
 
 ## 🔗 Links
-- [Portfólio Online](https://seu-portfolio.vercel.app)
-- [GitHub](https://github.com/seu-usuario)
-- [LinkedIn](https://www.linkedin.com/in/seu-usuario)
+- [Portfólio Online](https://portfolio-ascii.vercel.app)
+- [GitHub](https://github.com/diskmari)
+- [LinkedIn](https://www.linkedin.com/in/mariferm)
 
 ---
 
