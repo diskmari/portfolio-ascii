@@ -692,7 +692,7 @@ span {
   font-size: 16px;
   color: white;
 }
-
+/* Adicionando responsividade */
 @media (max-width: 1285px) {
   html {
     font-size: 55%;
