@@ -377,7 +377,6 @@ span {
   overflow-x: hidden; /* Remove a rolagem horizontal interna */
   scroll-behavior: smooth;
   gap: 2rem;
-  width: 90%; /* Reduz a largura para evitar corte */
   margin: 0 auto;
   padding-top: 2rem; /* Espaço para evitar cortes */
   padding-bottom: 2rem; /* Espaço para evitar cortes */
@@ -401,7 +400,7 @@ span {
   overflow: hidden; /* Evita que o conteúdo interno cause rolagem */
   margin: 0 10px; /* Adiciona margem para evitar corte da borda */
 
-  max-width: 720px;
+  max-width: 400px;
   width: 100%;
 }
 
